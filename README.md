@@ -5,3 +5,10 @@
 <strong>Usaremos nesta documentação linguagens técnicas, para entendimento de todos, estamos disponibilizando um dicionário com o significado de cada palavra.
 
 
+## Guia
+- [Bitdefender](/Guia/Bitdefender.md)
+- [Zabbix]()
+- [Grafana]()
+- [GLPI]()
+- [sFTP]()
+- [Prevenção de intrusão]()
