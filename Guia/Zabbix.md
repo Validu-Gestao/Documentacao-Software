@@ -4,6 +4,8 @@
   <h2 align="center">Zabbix</h2>
   <h1 align="center"><img src="https://ssd-disclosure.com/wp-content/uploads/2022/11/1_vloEha9mTCLM_SEnXdIUIw.png" alt="Imagem BitDefender" width="120"></h1>
 
+<!-- Escopo do documento -->
+
   # O que é o Zabbix?
   O Zabbix é uma ferramenta de software que monitora a infraestrutura de TI, como redes, servidores, máquinas virtuais e serviços em nuvem no geral.
 
@@ -109,6 +111,11 @@ Conforme a imagem fornecida, podemos notar 3 pontos importantes para o monitoram
 3. Tempo de resposta - O tempo de resposta é feito com o serviço [ICMPPINGSEC](/Guia/Dicionário.md)
 
 Usando esses protocolos de monitoramento dentro do Zabbix, conseguimos analisar e mitigar os riscos e resolver os problemas com um tempo de resposta mais rápido e eficaz.
+
+# Observações
+Caso encontre alguma palavra que não conheça, verificar se a palavra se encontra no [Dicionário](Dicionário.md), caso a palavra não esteja no dicionário disponibilizado, por favor relatar para a equipe de TI.
+
+
 
 # Autores
 - **Cleiton Lemos** - _CTO_ - <cleiton.lemos@validu.com.br>
