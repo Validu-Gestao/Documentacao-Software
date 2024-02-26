@@ -95,5 +95,23 @@ Dentro do sistema Zabbix, podemos monitorar qual permissão, quando foi o últim
 ![Acessos](Prints/Screenshot_2.png)
 
 
-# Vantagens para a empresa
+# Quais as vantagens para a empresa?
+
+A maior vantagem que temos ao usar o Zabbix, é monitorar qualquer aplicação que temos em nossa empresa ou fora. Por exemplo, podemos monitorar a nossa internet, como mostra a imagem abaixo.
+
+![Internet](Prints/Screenshot_3.png)
+
+Conforme a imagem fornecida, podemos notar 3 pontos importantes para o monitoramento. 
+
+
+1. Disponibilidade - A disponibilidade é feita por 1 ou 0. 1 = DISPONÍVEL e 0 = INDISPONÍVEL
+2. Perda de pacote - A perda de pacote é feita com o serviço [ICMPPINGLOSS](/Guia/Dicionário.md)
+3. Tempo de resposta - O tempo de resposta é feito com o serviço [ICMPPINGSEC](/Guia/Dicionário.md)
+
+Usando esses protocolos de monitoramento dentro do Zabbix, conseguimos analisar e mitigar os riscos e resolver os problemas com um tempo de resposta mais rápido e eficaz.
+
+# Autores
+- **Cleiton Lemos** - _CTO_ - <cleiton.lemos@validu.com.br>
+- **Nicolas Saldanha Alves** - _Estagiário Analista de Sistemas_ - <nicolas@camecsp.com.br>
+- **Rafael Rodrigues Gomes** - _Analista de Infraestrutura_ - <rafael@camecsp.com.br>
 
