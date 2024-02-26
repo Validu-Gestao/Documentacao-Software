@@ -85,8 +85,15 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 Conforme mostrado, todos os usuários e todas as permissões são criados dentro de um banco de dados, garantindo a proteção dos dados e a proteção dos serviços. Todos os processos estão dentro de máquinas virtuais, com estes processos em máquinas virtuais temos a certeza que a manutenção, caso necessário, será feita de uma maneira mais eficaz e vantajosa.
 
-![Servidores](Screenshot_1.png)
+![Servidores](Prints/Screenshot_1.png)
 
 # Acesso ao Zabbix
 
-Os acessos ao sistema Zabbix 
+Os acessos ao sistema Zabbix são criados e configurados pela nossa equipe de tecnologia, cada usuário escolhe a própria senha, garantindo uma proteção maior dentro do sistema. A autenticação é feita pelo protocolo LDAP, passando pelo nosso sistema interno e após o sistema dar OK, é feito o login do usuário.
+
+Dentro do sistema Zabbix, podemos monitorar qual permissão, quando foi o último acesso e se o usuário está apto para iniciar a sessão dentro do Zabbix.
+![Acessos](Prints/Screenshot_2.png)
+
+
+# Vantagens para a empresa
+
