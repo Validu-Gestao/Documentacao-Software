@@ -6,3 +6,4 @@
 
   # Termos e Siglas TI
   - OpenSource - OpenSource ou Código Aberto, de forma resumida, refere-se a um software que é disponibilizado gratuitamente para qualuqer pessoa acessar, copiar, modificar e redistribuir.
+  - GPLv2 - É a designação da licença para software livre idealizada por Richard Matthew Stallman em 1989, no âmbito do projeto GNU da Free Software Foundation.
