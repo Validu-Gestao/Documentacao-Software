@@ -5,7 +5,7 @@
   <h1 align="center"><img src="https://cdn-icons-png.flaticon.com/512/917/917219.png" alt="Imagem BitDefender" width="120"></h1>
 
   # Termos e Siglas TI
-  - OpenSource - OpenSource ou Código Aberto, de forma resumida, refere-se a um software que é disponibilizado gratuitamente para qualuqer pessoa acessar, copiar, modificar e redistribuir.
+  - OpenSource/Código Aberto - OpenSource ou Código Aberto, de forma resumida, refere-se a um software que é disponibilizado gratuitamente para qualuqer pessoa acessar, copiar, modificar e redistribuir.
   - GPLv2 - É a designação da licença para software livre idealizada por Richard Matthew Stallman em 1989, no âmbito do projeto GNU da Free Software Foundation.
   - SNMP - SNMP é o protocolo padrão para monitoramento e gerenciamento de redes. A sigla SNMP é um acrônimo para "Protocolo Simples de gerenciamento de redes".
 - Hosts - Host em inglês significa hospedeiro. Na área da tecnologia, quer dizer quem hospeda ou mantém uma estrutura de tecnologia funcionando.
@@ -16,3 +16,20 @@
 - Máquina Virtual - Máquina virtual consiste em um software de ambiente computacional que executa programas como um computador real, também chamado de virtualização.
 - Proxy - Servidor proxy é um aplicativo de servidor que atua como intermediário entre um cliente que solicita um recurso e o servidor que fornece o recurso.
 - Serviços em nuvem - Serviços em nuvem consistem em infraestrutura, plataforma ou software hospedados por fornecedores terceirizados e disponivilizados aos usuários via Internet.
+- Service Desk - Podemos definir Service Desk como uma central de serviços que oferece um suporte técnico altamente especializado.
+- PHP - É uma linguagem de programação voltada para o desenvolvimento de aplicações para a Web.
+- GNU - Projeto GNU, com o principal objetivo criar um sistema operacional totalmente livre, com o código fonte disponível aos programadores, e sem custos.
+- HelpDesk - Serviço de apoio a usuários para suporte e resolução de problemas técnicos.
+- Software - É uma sequência de instruções escritas para serem interpretadas por um computador para executar tarefas específicas.
+- Docker Compose - Ferramenta para gerenciar containers que tenham algum tipo de dependência entre si.
+- Container - Container é um ambiente isolado, disposto em um servidor, que divide um único host de controle. **Ex: Um navio cargueiro pode carregar diversos containers. Caso um dos recipientes seja danificado, os demais não são afetados. Afinal, são isolados, protegidos e estão carregando seus próprios produtos.**
+- Ubuntu - Sistema operacional de código aberto, construido a partir do núcleo Linux.
+- Deploy - Deploy consiste no processo de colocar no ar uma aplicação já concluída.
+- Terminal - Interface dedicada ao desenvolvedor ou especialista da computação para executar comandos sem a presença de um mouse.
+- URL - URL se refere ao endereço de rede no qual se encontra algum recurso informático.
+- Domínio - O nome de domínio foi concebido com o objetivo de facilitar a memorização dos endereços de computadores na Internet.
+- IP - É a identificação individual de cada um dos dispositivos conectados à internet ou a redes privadas.
+- Localhost - Localhost se refere ao computador que está executando um programa.
+- Socket - Socket provê a comunicação entre duas pontas (fonte e destino).
+- Active Directory - É uma implementação de serviço de diretório no protocolo LDAP que armazena informações sobre objetos em rede de computadores.
+

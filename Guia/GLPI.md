@@ -22,7 +22,7 @@
   # Configuração e instalação
   Para realizar a instalação e a configuração usamos um arquivo [docker-compose.yml](Dicionário.md), dentro desse docker-compose podemos gerenciar múltiplos [containers](Dicionário.md). Por usarmos [containers](Dicionário.md) para gerenciar cada aplicação, caso alguma aplicação apresente alguma falha, conseguimos mapear qual arquivo apresentou essa falha e não interrompemos o sistema de chamados. Abaixo podemos ver como funciona o arquivo [docker-compose.yml](Dicionário.md):
 
-  Este container roda o banco de dados
+  Este [container](Dicionário.md) roda o banco de dados
   ````
   version: "3.8"
 
@@ -39,7 +39,7 @@ services:
       - MARIADB_PASSWORD=SENHA_GLPI
 ````
 
-Este container roda a aplicação do sistema GLPI
+Este [container](Dicionário.md) roda a aplicação do sistema GLPI
 ````
 #Container GLPI
   glpi:
@@ -49,26 +49,26 @@ Este container roda a aplicação do sistema GLPI
     ports:
       - "80:80"
 ````
-Para a instalação do GLPI, usamos uma máquina virtual com a distribuição [Ubuntu](Dicionário.md). Dentro do sistema operacional precisamos criar uma pasta para salvar o arquivo docker-compose.yml, com o seguinte comando:
+Para a instalação do GLPI, usamos uma [máquina virtual](Dicionário.md) com a distribuição [Ubuntu](Dicionário.md). Dentro do sistema operacional precisamos criar uma pasta para salvar o arquivo [docker-compose.yml](Dicionário.md), com o seguinte comando no [terminal](Dicionário.md):
 ````
 sudo mkdir -p glpi
 ````
-Para criar o arquivo, devemos usar este comando:
+Para criar o arquivo, devemos usar este comando no [terminal](Dicionário.md):
 ````
 sudo nano docker-compose.yml
 ````
-Agora devemos fazer o [deploy](Dicionário.md), usamos o seguinte comando:
+Agora devemos fazer o [deploy](Dicionário.md), usamos o seguinte comando no [terminal](Dicionário.md):
 ````
 sudo docker-compose up -d
 ````
 
-Após fazer o deploy do arquivo, podemos acessar o sistema GLPI com a url definida. Caso não esteja hospedado em um domínio, você pode acessar o sistema pelo ip/localhost da máquina que está hospedado o sistema.
+Após fazer o [deploy](Dicionário.md) do arquivo, podemos acessar o sistema GLPI com a [url](Dicionário.md) definida. Caso não esteja hospedado em um domínio, você pode acessar o sistema pelo [ip/localhost](Dicionário.md) da máquina que está hospedado o sistema.
 
 # Portainer
-Para melhor acesso aos containers, estamos usando o portainer. O Portainer é uma plataforma de gerenciamento de [código aberto](Dicionário.md), que interage com o socket do [docker](Dicionário.md) para criar novos [containers](Dicionário.md) e monitorá-los.
+Para melhor acesso aos [containers](Dicionário.md), estamos usando o portainer. O Portainer é uma plataforma de gerenciamento de [código aberto](Dicionário.md), que interage com o socket do [docker](Dicionário.md) para criar novos [containers](Dicionário.md) e monitorá-los.
 
   # Acesso GLPI
-  Todos os acessos do GLPI são sincornizados com o [Active Directory](Dicionário.md), todos os usuários da nossa rede tem um usuário dentro do GLPI, porém nem todos os usuários tem acesso ao sistema. Ao criar um usuário dentro do Active Directory, o GLPI importa os usuários e sincroniza as informações do usuário. Para que um usuário tenha acesso ao sistema GLPI, a equipe de tecnologia deve dar permissão/cargo para está pessoa no sistema, caso contrário irá apresentar a seguinte informação:
+  Todos os acessos do GLPI são sincornizados com o [Active Directory](Dicionário.md), todos os usuários da nossa rede tem um usuário dentro do GLPI, porém nem todos os usuários tem acesso ao sistema. Ao criar um usuário dentro do [Active Directory](Dicionário.md), o GLPI importa os usuários e sincroniza as informações do usuário. Para que um usuário tenha acesso ao sistema GLPI, a equipe de tecnologia deve dar permissão/cargo para está pessoa no sistema, caso contrário irá apresentar a seguinte informação:
 
 ![alt text](Prints/Screenshot_4.png)
 
