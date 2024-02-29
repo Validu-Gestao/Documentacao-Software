@@ -5,7 +5,7 @@
   <h1 align="center"><img src="https://cdn-icons-png.flaticon.com/512/8110/8110738.png" alt="Imagem BitDefender" width="120">
 
   # Trânsferencia de arquivos
-  Nos tempos atuais, a trânsferencias de arquivos é completamente útil no mundo empresarial, o uso do método de trânferencia de arquivos é muito necessário, para que, multiusuários tenham acesso as mesmas informações de diferentes locais.
+  Nos tempos atuais, a trânsferencia de arquivos é completamente útil no mundo empresarial, o uso do método de trânferencia de arquivos é muito necessário, para que, multiusuários tenham acesso as mesmas informações de diferentes locais.
 
   Para realizar estas trânferencias, nós resolvemos criar um servidor próprio com o uso do protocolo sFTP, que conta com uma proteção maior na hora de trânsferir os arquivos, internamente ou externamente.
 
