@@ -10,6 +10,6 @@
 - [Zabbix](/Guia/Zabbix.md)
 - [Grafana]()
 - [GLPI](Guia/GLPI.md)
-- [sFTP]()
+- [sFTP](Guia/sFTP.md)
 - [Prevenção de intrusão]()
 - [Dicionário]()
