@@ -39,6 +39,6 @@
   Como recurso adicional, o Secure FTP também comprime todos os dados durante a transmissão, o que pode resultar em transferências mais rápidas de arquivos. Além disso, permite a padronização de TI entre plataformas, o que garante uma aplicação consistente e forte da política de segurança e administração mais simples.
 
   # Servidor sFTP
-  O servidor sFTP como dito anteriormente, pode ser criado em qualquer computador que tenha acesso à internet. E para criar este servidor podemos 
+  O servidor sFTP como dito anteriormente, pode ser criado em qualquer computador que tenha acesso à internet. E para criar este servidor podemos utilizar o sistema operacional Ubuntu
 
   #
