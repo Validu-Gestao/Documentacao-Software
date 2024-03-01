@@ -39,6 +39,89 @@
   Como recurso adicional, o Secure FTP também comprime todos os dados durante a transmissão, o que pode resultar em transferências mais rápidas de arquivos. Além disso, permite a padronização de TI entre plataformas, o que garante uma aplicação consistente e forte da política de segurança e administração mais simples.
 
   # Servidor sFTP
-  O servidor sFTP como dito anteriormente, pode ser criado em qualquer computador que tenha acesso à internet. E para criar este servidor podemos utilizar o sistema operacional Ubuntu
+  O servidor sFTP pode ser criado em qualquer computador que tenha acesso à internet, como informado anteriormente. Para a criação do servidor, utilizamos o sistema operacional Ubuntu, que  já vem com a ferramenta OpenSSH instalado por padrão.
 
-  #
+  ## Criação do servidor
+  Nesta seção do documento iremos explicar como foi feita a instalação e a configuração do servidor sFTP.
+
+  Primeiramente devemos deixar o nosso sistema operacional atualizado, para que não ocorra nenhum erro na parte da instalação e na parte da configuração. Entrar no terminal e digitar o comando para está operação:
+
+  ````
+  sudo apt-get update && apt-get upgrade -y
+  ````
+
+  Após a atualização do sistema operacional, devemos criar um gupo dentro do nosso servidor e criar os usuários que pertencem a este grupo.
+
+  ````
+  # Grupo para certificar os usuários
+  # dentro do serviço sftp
+  sudo grupoadd sftp_certificacoes
+  ```` 
+Assim que criar o grupo que irá certificar o usuário dentro do serviço, podemos criar os usuários dentro do grupo criado anteriormente.
+
+````
+# A pasta raiz é a pasta que vai ficar todos os diretórios da pessoa
+# Sempre lembrar o nome que você colocou e diferente do nome de usuário
+
+sudo useradd -g sftp_certificacoes -d /pasta_raiz_do_usuario -s /sbin/nologin nome_usuario
+````
+Agora devemos criar a pasta aonde vai ficar todos os diretórios, para demonstração vamos criar uma pasta chamada sftp, com este comando:
+````
+# Lembrar aonde fica o caminho da pasta, para não ocorrer erros em outras criações
+
+cd /
+
+mkdir -p /sftp
+````
+Para que o usuário consiga acessar o serviço, devemos colocar uma senha para ele/a, com o seguinte comando:
+````
+passwd nome_usuario
+````
+No console você deverá digitar a senha e confirmar a senha.
+
+Neste momento, devemos configurar o arquivo do nosso servidor sFTP. Abaixo o código e o arquivo de exemplo:
+````
+sudo nano /etc/ssh/sshd_config
+```` 
+
+Ao entrar no arquivo, comente a linha:
+````
+#Subsystem  sftp /usr/libexec/openssh/sftp-server
+````
+Após isso precisará adicionar algumas informações para a liberação e configuração do sFTP no final do arquivo. Adicione o conteúdo abaixo no arquivo:
+````
+# Configuracao do server
+Match Group sftp_certificacoes
+        ChrootDirectory /sftp/%u
+        ForceCommand internal-sftp
+````
+Após adicionar essa configuração no arquivo, salvar e sair.
+
+Agora devemos criar a pasta de acesso do usuário, segue comando abaixo:
+
+````
+sudo mkdir -p /sftp/nome_usuario/pasta_raiz_do_usuario
+````
+
+Após a criação da pasta de acesso do usuário, precisamos dar a permissão de leitura, escrita e gravação para o usuário, digite:
+````
+chown nome_usuario:sftp_certificacoes /sftp/nome_usuario/pasta_raiz_do_usuario/
+````
+
+Agora que configuramos todos os acessos e instalarmos o serviço, podemos rodar o seguinte comando no terminal:
+````
+systemctl restart sshd
+````
+
+Assim que o serviço reinicar, podemos acessar a pasta sftp com o programa que você preferir, neste exemplo estamos usando o FileZilla. Segue print abaixo:
+
+![alt text](Prints/FileZilla.png)
+Caso não saiba o ip da máquina, abra o terminal e use o comando: ifconfig
+
+# Observações
+Caso encontre alguma palavra que não conheça, verificar se a palavra se encontra no [Dicionário](Dicionário.md), caso a palavra não esteja no dicionário disponibilizado, por favor relatar para a equipe de TI.
+
+# Autores
+- **Cleiton Lemos** - _CTO_ - <cleiton.lemos@validu.com.br>
+- **Nicolas Saldanha Alves** - _Estagiário Analista de Sistemas_ - <nicolas@camecsp.com.br>
+- **Rafael Rodrigues Gomes** - _Analista de Infraestrutura_ - <rafael@camecsp.com.br>
