@@ -116,6 +116,7 @@ systemctl restart sshd
 Assim que o serviço reinicar, podemos acessar a pasta sftp com o programa que você preferir, neste exemplo estamos usando o FileZilla. Segue print abaixo:
 
 ![alt text](Prints/FileZilla.png)
+
 Caso não saiba o ip da máquina, abra o terminal e use o comando: ifconfig
 
 # Observações
