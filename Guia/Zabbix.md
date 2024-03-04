@@ -2,7 +2,7 @@
 
 <p align="center">
   <h2 align="center">Zabbix</h2>
-  <h1 align="center"><img src="https://ssd-disclosure.com/wp-content/uploads/2022/11/1_vloEha9mTCLM_SEnXdIUIw.png" alt="Imagem BitDefender" width="120"></h1>
+  <h1 align="center"><img src="https://ssd-disclosure.com/wp-content/uploads/2022/11/1_vloEha9mTCLM_SEnXdIUIw.png" alt="Imagem Zabbix" width="120"></h1>
 
 <!-- Escopo do documento -->
 

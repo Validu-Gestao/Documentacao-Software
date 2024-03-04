@@ -2,7 +2,7 @@
 
 <p align="center">
   <h2 align="center">GLPI</h2>
-  <h1 align="center"><img src="https://www.mindtek.com.br/wp-content/uploads/2022/08/f4f30f80-cd92-11e9-8301-1ad34bf00c41.png" alt="Imagem BitDefender" width="150"></h1>
+  <h1 align="center"><img src="https://www.mindtek.com.br/wp-content/uploads/2022/08/f4f30f80-cd92-11e9-8301-1ad34bf00c41.png" alt="Imagem GLPI" width="150"></h1>
 
   # O que é o GLPI
   GLPI é um termo aplicado a um serviço de gerenciamento de ativos de TI, um sistema onde podemos integrar um controle de incidências de chamados e ativos em um [service desk](Dicionário.md), o mesmo é baseado em [código aberto](Dicionário.md) e escrito em [PHP](Dicionário.md) atribuído ao [GNU](Dicionário.md) (General Public License). Todo mundo sabe da importância do [helpdesk](Dicionário.md) nas empresas, é uma área cujo objetivo é dar suporte ao usuário nas soluções de problemas relacionados à TI. É uma área que necessita de um tempo de resposta rápido e exige uma eficiência nos atendimentos. O GLPI veio para organizar, melhorar e agilizar esse processo dentro da área [helpdesk](Dicionário.md).

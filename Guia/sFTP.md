@@ -2,7 +2,7 @@
 
 <p align="center">
   <h2 align="center">sFTP</h2>
-  <h1 align="center"><img src="https://cdn-icons-png.flaticon.com/512/8110/8110738.png" alt="Imagem BitDefender" width="120">
+  <h1 align="center"><img src="https://cdn-icons-png.flaticon.com/512/8110/8110738.png" alt="Imagem sFTP" width="120">
 
   # Trânsferencia de arquivos
   Nos tempos atuais, a trânsferencia de arquivos é completamente útil no mundo empresarial, o uso do método de trânferencia de arquivos é muito necessário, para que, multiusuários tenham acesso as mesmas informações de diferentes locais.
