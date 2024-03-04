@@ -14,9 +14,9 @@
   ## O que é FTP?
   Desenvolvido em 1971 pelo estudante de engenharia elétrica Abhay Bhushan, o File Transfer Protocol (FTP), é um tipo de mensageiro, ou seja, ele transporta arquivos entre computadores pela internet. 
 
-  O FTP é baseado no TCP, mas é anterior à pilha de protocolos TCP/IP, sendo posteriormente adaptado a este. É o padrão da pilha para transferir arquivos.
+  O FTP é baseado no [TCP](Dicionário.md), mas é anterior à pilha de protocolos [TCP/IP](Dicionário.md), sendo posteriormente adaptado a este. É o padrão da pilha para transferir arquivos.
 
-  O protocolo é especificado na RFC 959, podemos acessar o resumo neste link [resumo](https://pt.wikipedia.org/wiki/Protocolo_de_Transfer%C3%AAncia_de_Arquivos#Vis%C3%A3o_geral_do_protocolo) 
+  O protocolo é especificado na [RFC](Dicionário.md) 959, podemos acessar o resumo neste link [resumo](https://pt.wikipedia.org/wiki/Protocolo_de_Transfer%C3%AAncia_de_Arquivos#Vis%C3%A3o_geral_do_protocolo) 
 
   ## Como funciona o FTP?
   A conexão FTP precisa de duas partes para estabelecer e se comunicar na rede. Para fazer isso, os usuários precisam de obter permissão ao fornecer as credenciais para o servidor FTP.
@@ -31,26 +31,26 @@
   # O que é sFTP?
   O sFTP é um protocolo de transferência de arquivos que aproveita um conjunto de utilitários que fornecem acesso seguro a um computador remoto para fornecer comunicações seguras. É considerado por muitos como o método ideal para transferência segura de arquivos. Ele aproveita o [SSH](Dicionário.md) (Secure Shell) e é frequentemente também chamado de 'Secure Shell File Transfer Protocol'
   ## Como surgiu?
-  O FTP seguro surgiu para atender às necessidades de segurança reforçada com túneis. Ele usa o [Secure Shell 2 (SSH2)](Dicionário.md), um protocolo de tunelamento seguro, para emular uma conexão FTP e fornece um canal amigável e criptografado para transferências de arquivos usando o conhecido Porta TCP 22.
+  O FTP seguro surgiu para atender às necessidades de segurança reforçada com túneis. Ele usa o [Secure Shell](Dicionário.md) 2 (SSH2), um protocolo de tunelamento seguro, para emular uma conexão FTP e fornece um canal amigável e criptografado para transferências de arquivos usando a conhecida Porta [TCP](Dicionário.md) 22.
 
   ## Segurança SSH
-  O SSH oferece segurança aprimorada, tendo toda a sessão de transferência de arquivos, incluindo todos os comandos de controle de sessão, totalmente criptografados em todos os momentos, exigindo  apenas que uma única porta seja aberta em seu firewall versus as duas portas que precisam a ser aberto para conexões FTP e SSL.
+  O [SSH](Dicionário.md) oferece segurança aprimorada, tendo toda a sessão de transferência de arquivos, incluindo todos os comandos de controle de sessão, totalmente criptografados em todos os momentos, exigindo apenas que uma única porta seja aberta em seu [firewall](Dicionário.md) versus as duas portas que precisam a ser aberto para conexões FTP e [SSL](Dicionário.md).
 
   Como recurso adicional, o Secure FTP também comprime todos os dados durante a transmissão, o que pode resultar em transferências mais rápidas de arquivos. Além disso, permite a padronização de TI entre plataformas, o que garante uma aplicação consistente e forte da política de segurança e administração mais simples.
 
   # Servidor sFTP
-  O servidor sFTP pode ser criado em qualquer computador que tenha acesso à internet, como informado anteriormente. Para a criação do servidor, utilizamos o sistema operacional Ubuntu, que  já vem com a ferramenta OpenSSH instalado por padrão.
+  O servidor sFTP pode ser criado em qualquer computador que tenha acesso à internet, como informado anteriormente. Para a criação do servidor, utilizamos o [sistema operacional](Dicionário.md) [Ubuntu](Dicionário.md), que  já vem com a ferramenta [OpenSSH](Dicionário.md) instalado por padrão.
 
   ## Criação do servidor
   Nesta seção do documento iremos explicar como foi feita a instalação e a configuração do servidor sFTP.
 
-  Primeiramente devemos deixar o nosso sistema operacional atualizado, para que não ocorra nenhum erro na parte da instalação e na parte da configuração. Entrar no terminal e digitar o comando para está operação:
+  Primeiramente devemos deixar o nosso [sistema operacional](Dicionário.md) atualizado, para que não ocorra nenhum erro na parte da instalação e na parte da configuração. Entrar no [terminal](Dicionário.md) e digitar o comando para está operação:
 
   ````
   sudo apt-get update && apt-get upgrade -y
   ````
 
-  Após a atualização do sistema operacional, devemos criar um gupo dentro do nosso servidor e criar os usuários que pertencem a este grupo.
+  Após a atualização do [sistema operacional](Dicionário.md), devemos criar um gupo dentro do nosso servidor e criar os usuários que pertencem a este grupo.
 
   ````
   # Grupo para certificar os usuários
@@ -77,7 +77,7 @@ Para que o usuário consiga acessar o serviço, devemos colocar uma senha para e
 ````
 passwd nome_usuario
 ````
-No console você deverá digitar a senha e confirmar a senha.
+No [terminal](Dicionário.md) você deverá digitar a senha e confirmar a senha.
 
 Neste momento, devemos configurar o arquivo do nosso servidor sFTP. Abaixo o código e o arquivo de exemplo:
 ````
@@ -108,16 +108,16 @@ Após a criação da pasta de acesso do usuário, precisamos dar a permissão de
 chown nome_usuario:sftp_certificacoes /sftp/nome_usuario/pasta_raiz_do_usuario/
 ````
 
-Agora que configuramos todos os acessos e instalarmos o serviço, podemos rodar o seguinte comando no terminal:
+Agora que configuramos todos os acessos e instalarmos o serviço, podemos rodar o seguinte comando no [terminal](Dicionário.md):
 ````
 systemctl restart sshd
 ````
 
-Assim que o serviço reinicar, podemos acessar a pasta sftp com o programa que você preferir, neste exemplo estamos usando o FileZilla. Segue print abaixo:
+Assim que o serviço reinicar, podemos acessar a pasta sftp com o programa que você preferir, neste exemplo estamos usando o [FileZilla](Dicionário.md). Segue print abaixo:
 
 ![alt text](Prints/FileZilla.png)
 
-Caso não saiba o ip da máquina, abra o terminal e use o comando: ifconfig
+Caso não saiba o [ip](Dicionário.md) da máquina, abra o [terminal](Dicionário.md) e use o comando: ifconfig
 
 # Observações
 Caso encontre alguma palavra que não conheça, verificar se a palavra se encontra no [Dicionário](Dicionário.md), caso a palavra não esteja no dicionário disponibilizado, por favor relatar para a equipe de TI.
