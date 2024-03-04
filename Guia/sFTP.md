@@ -50,7 +50,7 @@
   sudo apt-get update && apt-get upgrade -y
   ````
 
-  Após a atualização do [sistema operacional](Dicionário.md), devemos criar um grupoo dentro do nosso servidor e criar os usuários que pertencem a este grupo.
+  Após a atualização do [sistema operacional](Dicionário.md), devemos criar um grupo dentro do nosso servidor e criar os usuários que pertencem a este grupo.
 
   ````
   # Grupo para certificar os usuários
