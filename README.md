@@ -8,7 +8,7 @@
 ## Guia
 - [Bitdefender](/Guia/Bitdefender.md)
 - [Zabbix](/Guia/Zabbix.md)
-- [Grafana]()
+- [Grafana](Guia/Grafana.md)
 - [GLPI](Guia/GLPI.md)
 - [sFTP](Guia/sFTP.md)
 - [Prevenção de intrusão]()
