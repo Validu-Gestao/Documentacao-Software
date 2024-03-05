@@ -5,31 +5,31 @@
   <h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/800px-Grafana_logo.svg.png" alt="Imagem Grafana" width="150"></h1>
 
 # O que é o Grafana?
-O Grafana é uma plataforma interativa de visualização de dados open source, desenvolvida pela Grafana Labs, que permite aos usuários ver dados por meio de tabelas e gráficos unificados em um painel ou vários, para facilitar a interpretação e a compreensão. Você também pode consultar e definir alertas sobre suas informações e métricas de qualquer lugar que os dados estejam, sejam ambientes de servidor tradicionais, clusters do Kubernetes ou vários serviços em nuvem etc.
+O Grafana é uma plataforma interativa de visualização de dados [open source](Dicionário.md), desenvolvida pela [Grafana Labs](https://grafana.com/), que permite aos usuários ver dados por meio de tabelas e gráficos unificados em um painel ou vários, para facilitar a interpretação e a compreensão. Você também pode consultar e definir alertas sobre suas informações e métricas de qualquer lugar que os dados estejam, sejam ambientes de servidor tradicionais, [clusters do Kubernetes](Dicionário.md) ou vários [serviços em nuvem](Dicionário.md) etc.
 
-Assim, você poderá analisar os dados com mais facilidade, identificar tendências e inconsistências e, por fim, tornar seus processos mais eficientes. O Grafana foi construído com base nos princípios open source e na crença de que os dados devem ser acessíveis em toda a organização, não apenas para um pequeno grupo de pessoas.
+Assim, você poderá analisar os dados com mais facilidade, identificar tendências e inconsistências e, por fim, tornar seus processos mais eficientes. O Grafana foi construído com base nos princípios [open source](Dicionário.md) e na crença de que os dados devem ser acessíveis em toda a organização, não apenas para um pequeno grupo de pessoas.
 
 ## Por que utilizar o Grafana na sua empresa?
 Com o grafana, a empresa pode acompanhar todas as informações importantes vindas de diversas fontes -  como bancos de dados e outras ferramentas - por meio de uma única interface intuitiva e completa. Isso facilita a gestão de indicadores e o monitoramento de dados em tempo real, o que torna a tomada de decisões na empresa mais rápida e eficiente.
 
 ## Quais as vantagens do Grafana?
-Todos os dashboards do Grafana podem ser customizados, dando muita flexibilidade tanto na hora de configurar quanto na utilização, podendo ser integrado com outras ferramentas ou bancos de dados. Isto habilita uma gestão mais eficiente e transparente nas empresas, fornecendo indicadores em tempo real.
+Todos os [dashboards](Dicionário.md) do Grafana podem ser customizados, dando muita flexibilidade tanto na hora de configurar quanto na utilização, podendo ser integrado com outras ferramentas ou bancos de dados. Isto habilita uma gestão mais eficiente e transparente nas empresas, fornecendo indicadores em tempo real.
 
-A principal vantagem desta ferramenta é a capacidade de unificação em um único dashboard, diversas informações de diversas fontes, simplificando o uso e trazendo todas as informações que os usuários precisa de forma **gráfica, simples e eficiente.**
+A principal vantagem desta ferramenta é a capacidade de unificação em um único [dashboard](Dicionário.md), diversas informações de diversas fontes, simplificando o uso e trazendo todas as informações que os usuários precisa de forma **gráfica, simples e eficiente.**
 
 ### Liberdade 
 É possível integrar o Grafana com outras ferramentas como o [Zabbix](Zabbix.md), [GLPI](GLPI.md) e bancos de dados como MySQL, PostgresSQL, entre outros. É possível integrar o Grafana á diversas soluções, a lista de compatibilidade cresce constantemente, fornecendo mais opções para as empresas que adotam esta ferramenta.
 
 ### Flexibilidade
-A flexibilidade de implementação se dá por meio de plugins que podem ser adicionados, habilitando o Grafana a se conectar com outras ferramentas e extrair informações que serão exibidas em seus dashboards.
+A flexibilidade de implementação se dá por meio de plugins que podem ser adicionados, habilitando o Grafana a se conectar com outras ferramentas e extrair informações que serão exibidas em seus [dashboards](Dicionário.md).
 
-Como dito anteriormente, os dashboards, por sua vez, podem ser criados de forma livre, permitindo que um único dashboard exiba informações de fontes diferentes, tornando sua utilização mais dinâmica e customizável às necessidades do usuário.
+Como dito anteriormente, os [dashboards](Dicionário.md), por sua vez, podem ser criados de forma livre, permitindo que um único [dashboard](Dicionário.md) exiba informações de fontes diferentes, tornando sua utilização mais dinâmica e customizável às necessidades do usuário.
 
 ## Grafana e o monitoramento de TI
 
-A aplicação do Grafana em soluções de monitoramento de TI torna-se uma união valiosa, especialmente se considerarmos que muitas ferramentas de TI possuem seus próprios bancos de dados ou até mesmo seus próprios gráficos e dashboards.
+A aplicação do Grafana em soluções de monitoramento de TI torna-se uma união valiosa, especialmente se considerarmos que muitas ferramentas de TI possuem seus próprios bancos de dados ou até mesmo seus próprios gráficos e [dashboards](Dicionário.md).
 
-A melhor maneira de lidar com isso é unificar estes dashboards, criar gráficos que outras aplicações não conseguem fornecer, este é o principal valor do Grafana para estas soluções. Ao integrar esta solução na malha de monitoramento e unificando os dashboards, resolve-se um problema de longa data presente na TI, e possibilita o estabelecimento de um [NOC] e um [SOC].
+A melhor maneira de lidar com isso é unificar estes [dashboards](Dicionário.md), criar gráficos que outras aplicações não conseguem fornecer, este é o principal valor do Grafana para estas soluções. Ao integrar esta solução na malha de monitoramento e unificando os [dashboards](Dicionário.md), resolve-se um problema de longa data presente na TI, e possibilita o estabelecimento de um [NOC](Dicionário.md) e um [SOC](Dicionário.md).
 
 O NOC fica responsável por acompnahar todas as operações que ocorrem diariamente na TI, captando e solucionando problemas antes que eles ocorram. Já o SOC fica responsável pelo monitoramento de segurança, acompanhando em tempo real as possíveis vulnerabilidades e ataques antes mesmo de ocorrerem.
 
