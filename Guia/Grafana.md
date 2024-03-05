@@ -80,11 +80,16 @@ Ao finalizar o processo de instalação do plugin, estará disponível a opção
 
 ![Gif4](https://miro.medium.com/v2/resize:fit:720/format:webp/1*dzuZaJNs90O-wdeFOejrdw.gif)
 
-__Name__: Defina um nome para esse datasource
-__Url__: A url que responde pela API do Zabbix
+__Name__: Defina um nome para esse datasource.
+
+__Url__: A url que responde pela API do Zabbix.
+
 __Access__: O tipo de acesso que será realizado, Server indica que as requisições serão realizadas pelo backend do Grafana, partindo do Grafana Server, browser as requisições são realizadas a partir do navegador do usuário. Vale ressalatar que se escolhida a opção browser, o cliente também necessita ter acesso a interface web do Zabbix, uma vez que as requisições irão partir diretamente do cliente para o servidor Zabbix.
+
 __Trends__: Selecione se quiser que o [plugin] também utilize dados armazenados na tabela trends.
+
 __After__: O período que o plugin irá considerar para buscar da tabela trends, ex: Se configurado para 4d, quando selecionado um intervalo de tempo maior do que 4 dias os dados serão recuperados da tabela trends.
+
 __Range__: O intervalo de tempo no qual o plugin deverá buscar os dados da tabela trends, ex: Se configurado para 3d, quando o intervalo selecionado for maior que 3 dias, os dados serão recuperados da tabela trends, mesmo que sejam dados anteriores a 4 dias configurado no passo anterior.
 
 Essas são as principais configurações para ter uma integração funcional, para outras configurações pode ser consultada diretamente na documentação do plugin em: https://alexanderzobnin.github.io/grafana-zabbix/configuration/
