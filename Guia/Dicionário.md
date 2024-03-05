@@ -40,7 +40,7 @@
  - SSL - Secure Sockets Layer (SSL) é uma tecnologia de segurança padrão que estabelece um link criptografado entre um servidor e um cliente, normalmente um servidor Web (site) e um navegador ou um servidor de e-mail e um cliente de e-mail (por exemplo, o Outlook).
  - OpenSSH - OpenSSH é um conjunto de utilitários de rede relacionado à segurança que probém a criptografia em sessões de comunicação em uma rede de computadores usando o protocolo SSH.
  - Sistema operacional - O sistema operacional é um software, ou conjunto de softwares, cuja função é administrar e gerenciar os recursos de um sistema (Por exemplo, Linux, Windows, Android, macOS, Unix, entre outros).
- - FileZilla - É um cliente FTP, SFTP e FTPS de código livre para Microsofto Windows, é possível acessar o FTP, um protocolo de rede que permite conectar-se ao seu servidor para alterar e transferir seus arquivos.
+ - FileZilla - É um cliente FTP, SFTP e FTPS de código livre para Microsoft Windows, é possível acessar o FTP, um protocolo de rede que permite conectar-se ao seu servidor para alterar e transferir seus arquivos.
 - Plugin - Na informática, um plugin é um programa de computador usado para adicionar funções a outros programas maiores.
 - Dashboard - Dashboard é como um painel de controle para informações importantes, só que em vez de botões e luzes, ele usa gráficos coloridos e números para mostrar dados de uma forma fácil.
 - Clusters Kubernetes - Um cluster Kubernetes (K8s) é um grupo de nós de computação, ou máquinas de trabalho, que executam aplicações em contêineres.
