@@ -6,3 +6,7 @@
 
 # O que é o Grafana?
 O Grafana é uma plataforma interativa de visualização de dados open source, desenvolvida pela Grafana Labs, que permite aos usuários ver dados por meio de tabelas e gráficos unificados em um painel ou vários, para facilitar a interpretação e a compreensão. Você também pode consultar e definir alertas sobre suas informações e métricas de qualquer lugar que os dados estejam, sejam ambientes de servidor tradicionais, clusters do Kubernetes ou vários serviços em nuvem etc.
+
+Assim, você poderá analisar os dados com mais facilidade, identificar tendências e inconsistências e, por fim, tornar seus processos mais eficientes. O Grafana foi construído com base nos princípios open source e na crença de que os dados devem ser acessíveis em toda a organização, não apenas para um pequeno grupo de pessoas.
+
+
