@@ -43,4 +43,6 @@
  - FileZilla - É um cliente FTP, SFTP e FTPS de código livre para Microsofto Windows, é possível acessar o FTP, um protocolo de rede que permite conectar-se ao seu servidor para alterar e transferir seus arquivos.
 - Plugin - Na informática, um plugin é um programa de computador usado para adicionar funções a outros programas maiores.
 - Dashboard - Dashboard é como um painel de controle para informações importantes, só que em vez de botões e luzes, ele usa gráficos coloridos e números para mostrar dados de uma forma fácil.
-- Clusters Kubernetes
+- Clusters Kubernetes - Um cluster Kubernetes (K8s) é um grupo de nós de computação, ou máquinas de trabalho, que executam aplicações em contêineres.
+- NOC - O NOC é composto por profissionais capacitados que, com a ajuda de ferramentas de software, realizam o monitoramento de eventos que ocorrem na infraestrutura.
+- SOC - O SOC é composto por profissionais capacitados que, com a ajuda de ferramentas de software, realizam o monitoramento de inicidentes e violações de segurança.

@@ -57,7 +57,7 @@ Após a criação do grupo, criamos o *User* administrativo
 
 ## Instalando o plugin no Grafana
 
-O [plugin](Dicionário.md) pode ser instalado através de um utilitário de linha de comando do Grafana chamado grafana-cli, usando os comandos abaixo dentro do seu [terminal]:
+O [plugin](Dicionário.md) pode ser instalado através de um utilitário de linha de comando do Grafana chamado grafana-cli, usando os comandos abaixo dentro do seu [terminal](Dicionário.md):
 ````
 grafana-cli plugins install alexanderzobnin-zabbix-app
 systemctl restart grafana-server
